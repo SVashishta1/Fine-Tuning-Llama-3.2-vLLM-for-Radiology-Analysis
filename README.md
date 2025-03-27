@@ -43,15 +43,15 @@ This project fine-tunes the **Llama-3.2-11B-Vision-Instruct** model for radiolog
 ---
 
 ## Model Overview
-This model, fine-tuned from **unsloth/llama-3.2-11b-vision-instruct-unsloth-bnb-4bit**, uses the `Radiology_mini` dataset to generate captions for radiology images. Fine-tuning utilized **LoRA** with Unsloth and Hugging Face’s TRL library on an A100 GPU, achieving **85% caption accuracy** on 1K+ images.
+This model, fine-tuned from **unsloth/llama-3.2-11b-vision-instruct-unsloth-bnb-4bit**, uses the `Radiology_mini` dataset to generate captions for radiology images. Fine-tuning utilized **LoRA** with Unsloth and Hugging Face’s TRL library on an A100 GPU, achieving **good caption accuracy** on 1K+ images.
 
 ## Usage
 - Deployed to Hugging Face Hub with 4-bit quantization, reducing memory usage by 60%.  
 - Currently enhancing performance with larger datasets and more epochs.
 
 ## Results
-- **Performance**: Not upto the mark, due to compute resource limitations, still working on it to train the model on the entire dataset
-- **Then why this project?**: To understand how to train/finetune multi billion LLM's/vLLM's for a specific use.
+- **Performance**: Performance is good but needs improvement, restricted by compute resource limitations, still working on it to train the model on the larger dataset with hyper-parameter optimization
+- **Why this project?**: To understand how to train/finetune multi billion LLM's/vLLM's for a specific usecase.
 - **Current finetuned model**: The current finetuned model(safetensors) is uploaded on the Hugging Face Hub [Llama3.2 vLLM_finetuned_for_Radiology](https://huggingface.co/Vashishta-S-2141/llama-3.2-11b-vision-instruct-unsloth-bnb-4bit_for_radiology)  
 
 ---
