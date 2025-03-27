@@ -11,7 +11,7 @@ This project fine-tunes the **Llama-3.2-11B-Vision-Instruct** model for radiolog
 ## Base Model
 - **Model**: [unsloth/llama-3.2-11b-vision-instruct-unsloth-bnb-4bit](https://huggingface.co/unsloth/llama-3.2-11b-vision-instruct-unsloth-bnb-4bit)
 ## Finetuned Model
-- **Current finetuned model**: On the Hugging Face Hub [Llama3.2 vLLM_finetuned_for_Radiology](https://huggingface.co/Vashishta-S-2141/llama-3.2-11b-vision-instruct-unsloth-bnb-4bit_for_radiology)  
+- **Deployed Current finetuned model**: On the Hugging Face Hub [Llama3.2 vLLM_finetuned_for_Radiology](https://huggingface.co/Vashishta-S-2141/llama-3.2-11b-vision-instruct-unsloth-bnb-4bit_for_radiology)  
 ## Tags
 - text-generation-inference
 - transformers
