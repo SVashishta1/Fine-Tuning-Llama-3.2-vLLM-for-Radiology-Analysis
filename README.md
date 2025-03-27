@@ -47,10 +47,10 @@ This model, fine-tuned from **unsloth/llama-3.2-11b-vision-instruct-unsloth-bnb-
 
 ## Usage
 - Deployed to Hugging Face Hub with 4-bit quantization, reducing memory usage by 60%.  
-- Currently enhancing performance with larger datasets and more epochs.
+- Currently enhancing performance with larger datasets and more epochs with hyper-parameter optimization.
 
 ## Results
-- **Performance**: Performance is good but needs improvement, restricted by compute resource limitations, still working on it to train the model on the larger dataset with hyper-parameter optimization
+- **Performance**: Performance is good but needs improvement, restricted by compute resource limitations, still working on it to train the model on the larger dataset with hyper-parameter optimization.
 - **Why this project?**: To understand how to train/finetune multi billion LLM's/vLLM's for a specific usecase.
 - **Current finetuned model**: The current finetuned model(safetensors) is uploaded on the Hugging Face Hub [Llama3.2 vLLM_finetuned_for_Radiology](https://huggingface.co/Vashishta-S-2141/llama-3.2-11b-vision-instruct-unsloth-bnb-4bit_for_radiology)  
 
